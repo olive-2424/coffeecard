@@ -1,0 +1,19 @@
+body {
+  background-color: lightgreen;
+}
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+table {
+  margin: 10px auto;
+}
+.item.card {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background-size: cover;
+}
+.item.card.back {
+  background-image: url(../images/cardBack.png) !important;
+}
